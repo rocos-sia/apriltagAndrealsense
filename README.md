@@ -1,16 +1,16 @@
-#Apriltag + Realsense + 可视化
+## Apriltag + Realsense + 可视化
 
-该功能包目前基于Apriltag码和Realsense的摄像头，无法普遍适用于其他摄像头。\
+该功能包目前基于Apriltag码和Realsense的摄像头，无法普遍适用于其他摄像头。
 
-但是可以使用ROS下image_transport中的CameraSubscriber类节点同步发送OPencv得到的图像和相机内参，畸变等参数，直接替代realsense的ROS包，详细的两个包之间的话题见内部README.md或者视觉知识整理.\
+但是可以使用ROS下image_transport中的CameraSubscriber类节点同步发送OPencv得到的图像和相机内参，畸变等参数，直接替代realsense的ROS包，详细的两个包之间的话题见内部README.md或者视觉知识整理.
 
-目前已测试了同步接收图像和T，R数据进行二次处理得到想要的可视化界面，证明上述方法的可行性。\
+目前已测试了同步接收图像和T，R数据进行二次处理得到想要的可视化界面，证明上述方法的可行性。
 
-机械臂和码结合的代码节点为apriltag.py，大家可结合实际所用机械臂自行更改。\
+机械臂和码结合的代码节点为apriltag.py，大家可结合实际所用机械臂自行更改。
 
-image_receive为单纯接收图像节点，大家可基于进行更改和开发。\
+image_receive为单纯接收图像节点，大家可基于进行更改和开发。
 
-imageAndPose为二次开发的可视化节点，主要增加码的图像坐标轴的可视化，非必须。\
+imageAndPose为二次开发的可视化节点，主要增加码的图像坐标轴的可视化，非必须。
 
 ## 软件包介绍
 
@@ -31,4 +31,5 @@ imageAndPose为二次开发的可视化节点，主要增加码的图像坐标�
 - Realsense D435
 
 ## 话题解析
+https://qd8bd52pvj.feishu.cn/wiki/wikcnGCBHXPhXmvsgfZi7VGD4Fc
 
