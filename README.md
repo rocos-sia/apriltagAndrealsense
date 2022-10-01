@@ -31,5 +31,5 @@ imageAndPose为二次开发的可视化节点，主要增加码的图像坐标�
 - Realsense D435
 
 ## 话题解析
-https://qd8bd52pvj.feishu.cn/wiki/wikcnGCBHXPhXmvsgfZi7VGD4Fc
+https://blog.csdn.net/qq_45494729/article/details/127133349?spm=1001.2014.3001.5502
 
